@@ -26,12 +26,12 @@ export const Header = () => {
             </li>
           </ul>
           <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-primary me-2">
+            <Link to="/login" class="btn btn-outline-primary me-2">
               Login
-            </button>
-            <button type="button" class="btn btn-primary">
+            </Link>
+            <Link to="/register" class="btn btn-primary">
               Sign-up
-            </button>
+            </Link>
           </div>
         </header>
       </div>
